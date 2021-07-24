@@ -8,6 +8,20 @@ import Matematika from "../components/Kelas/Matematika.vue";
 import Fisika from "../components/Kelas/Fisika.vue";
 import Kimia from "../components/Kelas/Kimia.vue";
 import Biologi from "../components/Kelas/Biologi.vue";
+import Akun from "../components/Akun.vue";
+import Tentang from "../components/Tentang.vue";
+// Materi
+import MateriMatematika from "../components/Materi/MateriMatematika.vue";
+import MateriFisika from "../components/Materi/MateriFisika.vue";
+import MateriKimia from "../components/Materi/MateriKimia.vue";
+import MateriBiologi from "../components/Materi/MateriBiologi.vue";
+// Kuis
+import KuisMatematika from "../components/Kuis/KuisMatematika.vue";
+import KuisFisika from "../components/Kuis/KuisFisika.vue";
+import KuisKimia from "../components/Kuis/KuisKimia.vue";
+import KuisBiologi from "../components/Kuis/KuisBiologi.vue";
+
+
 
 const routes = [
   {
@@ -54,6 +68,56 @@ const routes = [
     path: "/matematika",
     name: "Matematika",
     component: Matematika,
+  },
+  {
+    path: "/akun",
+    name: "Akun",
+    component: Akun,
+  },
+  {
+    path: "/tentang",
+    name: "Tentang",
+    component: Tentang,
+  },
+  {
+    path: "/materi-kimia",
+    name: "MateriKimia",
+    component: MateriKimia,
+  },
+  {
+    path: "/materi-fisika",
+    name: "MateriFisika",
+    component: MateriFisika,
+  },
+  {
+    path: "/materi-biologi",
+    name: "MateriBiologi",
+    component: MateriBiologi,
+  },
+  {
+    path: "/materi-matematika",
+    name: "MateriMatematika",
+    component: MateriMatematika,
+  },
+  {
+    path: "/kuis-Biologi",
+    name: "KuisBiologi",
+    component: KuisBiologi,
+  },
+  {
+    path: "/kuis-Fisika",
+    name: "KuisFisika",
+    component: KuisFisika,
+  },
+  {
+    path: "/kuis-Matematika",
+    name: "KuisMatematika",
+    component: KuisMatematika,
+  },
+  {
+    path: "/kuis-Kimia",
+    name: "KuisKimia",
+    component: KuisKimia,
   },
 ];
 

@@ -48,7 +48,7 @@
             
             
             <br>
-          <router-link to="/login" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Register</router-link>
+          <button @click="create_Account" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Register</button>
       </div>
     </div>
     <div class="mx-auto mt-10 text-white">
@@ -97,12 +97,12 @@ export default {
             //     this.getBarang()
             // })
             const response = await AuthenticationService.register({
-                namaDepan: this.namaDepan,
-                namaBelakang: this.namaBelakang,
-                email: this.email,
-                nomorTelepon: this.nomorTelepon,
-                username: this.username,
-                kataSandi: this.kataSandi
+                namaDepan: this.createAccount.namaDepan,
+                namaBelakang: this.createAccount.namaBelakang,
+                email: this.createAccount.email,
+                nomorTelepon: this.createAccount.nomorTelepon,
+                username: this.createAccount.username,
+                kataSandi: this.createAccount.kataSandi
             })
             this.$router.push('/login')
             .catch(err => {

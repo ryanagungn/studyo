@@ -29,7 +29,7 @@
             </label>
             
             <br>
-          <router-link to="/home" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Login</router-link>
+          <button @click="login" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Login</button>
       </div>
     </div>
     <div class="mx-auto mt-10 text-white">

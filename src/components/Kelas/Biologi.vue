@@ -27,8 +27,8 @@
                     Biologi atau ilmu hayat adalah kajian tentang kehidupan, dan organisme hidup, termasuk struktur, fungsi, pertumbuhan, evolusi, persebaran, dan taksonominya. Ilmu biologi modern membahas pengetahuan yang sangat luas, eklektik, serta terdiri dari berbagai macam cabang dan subdisiplin. Secara umum, seluruh cabang keilmuan biologi disatukan oleh konsep dasar yang mengatur semua penelitian biologi, yaitu konsep tentang sel, gen, dan evolusi. Sel diakui sebagai satuan dasar kehidupan, gen diakui sebagai satuan dasar pewarisan, dan evolusi diasumsikan sebagai mekanisme yang mendorong terciptanya spesies baru. Selain itu, kelangsungan hidup dari makhluk hidup diyakini terjadi karena adanya perilaku konsumsi, perubahan energi serta dengan regulasi yang menjaga kestabiilan dan vitaltas keadaan dalam tubuh.         
                </div>
                 <div class="mt-12">
-                    <a href="" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Tonton Materi</a>
-                    <a href="" class="px-8 py-4 mt-8 ml-4 text-lg text-white bg-yellow-300 shadow-lg rounded-2xl hover:bg-yellow-400">Kuis</a>
+                    <a href="./materi-biologi" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Tonton Materi</a>
+                    <a href="./kuis-biologi" class="px-8 py-4 mt-8 ml-4 text-lg text-white bg-yellow-300 shadow-lg rounded-2xl hover:bg-yellow-400">Kuis</a>
 
                 </div>
            </div>

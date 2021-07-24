@@ -27,8 +27,8 @@
                     Matematika (dari bahasa Yunani: μαθημα - mathēma, "pengetahuan, pemikiran, pembelajaran") atau sebelumnya disebut ilmu hisab adalah ilmu yang mempelajari besaran, struktur, ruang, dan perubahan. Para matematikawan merangkai dan menggunakan berbagai pola, kemudian menggunakannya untuk merumuskan konjektur baru, dan membangun kebenaran melalui metode deduksi yang ketat diturunkan dari aksioma-aksioma dan definisi-definisi yang bersesuaian.
                 </div>
                 <div class="mt-12">
-                    <a href="" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Tonton Materi</a>
-                    <a href="" class="px-8 py-4 mt-8 ml-4 text-lg text-white bg-yellow-300 shadow-lg rounded-2xl hover:bg-yellow-400">Kuis</a>
+                    <a href="./materi-matematika" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Tonton Materi</a>
+                    <a href="./kuis-matematika" class="px-8 py-4 mt-8 ml-4 text-lg text-white bg-yellow-300 shadow-lg rounded-2xl hover:bg-yellow-400">Kuis</a>
 
                 </div>
            </div>

@@ -26,8 +26,8 @@
                     Fisika (dari bahasa Belanda: fysica, dari bahasa Yunani: φυσικός translit. fysikós arti "alamiah" atau bahasa Yunani: φύσις translit. fýsis arti "alam"; bahasa Inggris: physics; bahasa Arab: فيزياء, translit. fīziyāʾ‎) adalah sains atau ilmu alam yang mempelajari materi beserta gerak dan perilakunya dalam lingkup ruang dan waktu, bersamaan dengan konsep yang berkaitan seperti energi dan gaya. Sebagai salah satu ilmu sains paling dasar, tujuan utama fisika adalah memahami bagaimana alam semesta berkerja. Orang atau ilmuwan yang ahli dalam bidang fisika disebut sebagai ahli fisika atau fisikawan.             
                   </div>
                 <div class="mt-12">
-                    <a href="" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Tonton Materi</a>
-                    <a href="" class="px-8 py-4 mt-8 ml-4 text-lg text-white bg-yellow-300 shadow-lg rounded-2xl hover:bg-yellow-400">Kuis</a>
+                    <a href="./materi-fisika" class="px-8 py-4 mt-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Tonton Materi</a>
+                    <a href="./kuis-fisika" class="px-8 py-4 mt-8 ml-4 text-lg text-white bg-yellow-300 shadow-lg rounded-2xl hover:bg-yellow-400">Kuis</a>
 
                 </div>
            </div>
