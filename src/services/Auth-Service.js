@@ -20,10 +20,15 @@ export default{
     test(credentials){
         return Api().post('test', credentials)
     },
-    soal(){
+    soal(credentials){
         const token = localStorage.getItem('token')
         const headers = {Authorization: `Bearer ${token}`}
-        return Api().get('soal', {headers})
+        return Api().post('soal', credentials, {headers})
+    },
+    kirimBiologi(credentials){
+        const token = localStorage.getItem('token')
+        const headers = {Authorization: `Bearer ${token}`}
+        return Api().post('kirimBiologi', credentials, {headers})
     }
 }
     

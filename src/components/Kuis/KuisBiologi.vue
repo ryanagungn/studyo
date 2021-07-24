@@ -19,7 +19,7 @@
         <div class="container px-5 mx-auto mt-8 rounded-3xl">
           <div class="container px-32 text-left">
             <div class="flex flex-row px-10 py-4 bg-gray-200 rounded-3xl">
-              <p class="mt-4 text-2xl font-semibold">1</p>
+              <p class="mt-4 text-2xl font-semibold">{{i+1}}</p>
               
               <p class="mt-4 ml-4 leading-loose">{{so.soal}}</p>
             </div>
@@ -43,6 +43,8 @@
         <label for="five">{{so.opsiE}}</label>
       </div>
     </div>
+
+    <button @click="kirim">Submit</button>
 
     <!-- footer -->
   <div class="container px-5 mx-auto mt-24 mb-6">
@@ -73,12 +75,14 @@ export default {
             opsiC: '',
             opsiD: '',
             opsiE: '',
-            jawaban: ''
+            jawaban: [],
+            mata_pelajaran: 'biologi'
         }
     },
     methods: {
         async getSoal(){
             const response = await AuthenticationService.soal({
+              mata_pelajaran : this.mata_pelajaran
             })
             //console.log(response)
             this.soal = response.data
@@ -86,7 +90,8 @@ export default {
         },
         async kirim() {
             //nunggu respon seko server
-            const response = await AuthenticationService.login({
+            const response = await AuthenticationService.kirimBiologi({
+              jawaban : this.jawaban
             })
             this.$router.push('/home')
         },

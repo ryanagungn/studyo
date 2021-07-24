@@ -13,13 +13,13 @@
       </nav>
     </div>
     
-    <h1 class="mt-12 text-3xl font-bold">Soal Biologi</h1>
+    <h1 class="mt-12 text-3xl font-bold">Soal Fisika</h1>
 
     <div v-for="(so, i) in this.soal" :key="i">
         <div class="container px-5 mx-auto mt-8 rounded-3xl">
           <div class="container px-32 text-left">
             <div class="flex flex-row px-10 py-4 bg-gray-200 rounded-3xl">
-              <p class="mt-4 text-2xl font-semibold">1</p>
+              <p class="mt-4 text-2xl font-semibold">{{i+1}}</p>
               
               <p class="mt-4 ml-4 leading-loose">{{so.soal}}</p>
             </div>
@@ -73,12 +73,14 @@ export default {
             opsiC: '',
             opsiD: '',
             opsiE: '',
-            jawaban: ''
+            jawaban: '',
+            mata_pelajaran: 'fisika'
         }
     },
     methods: {
         async getSoal(){
             const response = await AuthenticationService.soal({
+              mata_pelajaran : this.mata_pelajaran
             })
             //console.log(response)
             this.soal = response.data
