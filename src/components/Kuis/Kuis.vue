@@ -13,7 +13,7 @@
       </nav>
     </div>
     
-    <h1 class="mt-12 text-3xl font-bold">Soal Biologi</h1>
+    <h1 class="mt-12 text-3xl font-bold">Kuis</h1>
 
       <!-- nomor 1 -->
       <div class="container px-5 mx-auto mt-8 rounded-3xl">
@@ -80,19 +80,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban3">
         <label for="one">A. 16 dan 16</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban3">
         <label for="two">B. 16 dan 17</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban3">
         <label for="three">C. 17 dan 15</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban3">
         <label for="four">D. 18 dan 13</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban3">
         <label for="five">E. 15 dan 17</label>
       </div>
 
@@ -107,19 +107,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban3">
         <label for="one">A. 7,5 M</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban3">
         <label for="two">B. 12,5 M</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban3">
         <label for="three">C. 15 M</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban3">
         <label for="four">D. 17 M</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban3">
         <label for="five">E. 18 M</label>
       </div>
 
@@ -134,19 +134,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban4">
         <label for="one">A. amonium klorida</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban4">
         <label for="two">B. barium nitrat</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban4">
         <label for="three">C. natrium asetat</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban4">
         <label for="four">D. kalium sulfat</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban4">
         <label for="five">E. kalium bromida</label>
       </div>
 
@@ -161,19 +161,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban5">
         <label for="one">A. 12A</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban5">
         <label for="two">B. 3 A</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban5">
         <label for="three">C. 1,5 A</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban5">
         <label for="four">D. 24 A</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban5">
         <label for="five">E. Tidak berubah</label>
       </div>
 
@@ -188,16 +188,16 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban6">
         <label for="one">A. 90 N dan tolak menolak</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban6">
         <label for="two">B. 90 N dan tarik menarik</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban6">
         <label for="three">C. 2.700 N dan tolak menolak</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban6">
         <label for="four">D. 2.700 N dan tarik menarik</label>
         <br>
         <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban2">
@@ -215,19 +215,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban7">
         <label for="one">A. 2</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban7">
         <label for="two">B. 4</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban7">
         <label for="three">C. 6</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban7">
         <label for="four">D. 8</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban7">
         <label for="five">E. 10</label>
       </div>
 
@@ -242,19 +242,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban8">
         <label for="one">A. 3</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban8">
         <label for="two">B. 6</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban8">
         <label for="three">C. 8</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban8">
         <label for="four">D. 16</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban8">
         <label for="five">E. 32</label>
       </div>
 
@@ -269,26 +269,35 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban9">
         <label for="one">A. 0</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban9">
         <label for="two">B. 0,25</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban9">
         <label for="three">C. 0,5</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban9">
         <label for="four">D. 0,75</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban9">
         <label for="five">E. 1,0</label>
       </div>
 
-    <button @click="kirim" class="px-8 py-3 mt-8 text-lg text-white bg-blue-800 rounded-2xl hover:bg-blue-900">Submit</button>
+    <button @click="kirim" class="px-8 py-3 mt-12 text-lg text-white bg-blue-800 rounded-2xl hover:bg-blue-900">Submit</button>
+
+    <div class="container py-6 mx-auto mt-12 bg-blue-800 rounded-2xl">
+          <div class="container grid items-center grid-cols-2 px-32">
+              <div class="text-left text-white ">
+                Nilai anda :
+              </div>
+              <div class="text-2xl font-bold text-right text-white ">80</div>
+          </div>
+    </div>
 
     <!-- footer -->
-  <div class="container px-5 mx-auto mt-24 mb-6">
+  <div class="container px-5 mx-auto mt-12 mb-6">
       <footer class="flex items-center justify-between">
           <div>
           <p class="text-left">Made with Love</p>

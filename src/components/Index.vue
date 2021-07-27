@@ -20,8 +20,8 @@
         <div class="justify-between mx-auto my-20 text-center rounded-3xl">
           <h1 class="font-bold leading-tight text-left text-7xl">Belajar dari <br> rumah</h1>
           <p class="mt-4 mb-10 text-3xl leading-normal text-left">Bimbingan belajar online <br> terbaik dan terbesar di dunia</p>
-          <a href="" class="py-3 mr-5 text-lg text-white bg-blue-800 px-7 rounded-2xl hover:bg-blue-900" >Daftar</a>
-          <a href="login" class="py-3 text-lg text-white bg-gray-400 mr-96 px-7 rounded-2xl hover:bg-gray-600">Login</a>
+          <a href="/register" class="py-3 mr-5 text-lg text-white bg-blue-800 px-7 rounded-2xl hover:bg-blue-900" >Daftar</a>
+          <a href="/login" class="py-3 text-lg text-white bg-gray-400 mr-96 px-7 rounded-2xl hover:bg-gray-600">Login</a>
         </div>
       
       <div class="justify-between w-4/5 mx-auto my-16 text-center">

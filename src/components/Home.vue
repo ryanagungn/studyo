@@ -44,6 +44,12 @@
             <h1 class="mt-8 text-2xl text-center text-white">Fisika</h1>
           </div>
           </router-link>
+
+          <div class="container col-span-4 px-5 py-8 bg-blue-800 rounded-2xl">
+            <div>
+                  <router-link to="/kuis" class="px-8 py-4 text-lg text-black bg-white rounded-xl">Coba kuis</router-link>
+            </div>
+          </div>
     </div> 
   </div>
   </div>

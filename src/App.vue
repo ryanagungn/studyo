@@ -21,17 +21,14 @@ import MateriFisika from "./components/Materi/MateriFisika.vue";
 import MateriKimia from "./components/Materi/MateriKimia.vue";
 import MateriBiologi from "./components/Materi/MateriBiologi.vue";
 // Kuis
-import KuisMatematika from "./components/Kuis/KuisMatematika.vue";
-import KuisFisika from "./components/Kuis/KuisFisika.vue";
-import KuisKimia from "./components/Kuis/KuisKimia.vue";
-import Kuis from "./components/Kuis/Kuis.vue";
+import Kuis from "./components/Kuis/Kuis.vue"; 
 
 
 
 export default {
   name: 'App',
   components: {
-    Index, Login, Register, Home, FAQ, Matematika, Fisika, Kimia, Biologi, Akun, Tentang, MateriMatematika, MateriFisika, MateriKimia, MateriBiologi, KuisMatematika, KuisFisika, KuisKimia, Kuis,
+    Index, Login, Register, Home, FAQ, Matematika, Fisika, Kimia, Biologi, Akun, Tentang, MateriMatematika, MateriFisika, MateriKimia, MateriBiologi, Kuis,
   },
   created(){
         document.title = "Study.io : Bimbel online terpercaya"

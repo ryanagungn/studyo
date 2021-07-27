@@ -16,9 +16,6 @@ import MateriFisika from "../components/Materi/MateriFisika.vue";
 import MateriKimia from "../components/Materi/MateriKimia.vue";
 import MateriBiologi from "../components/Materi/MateriBiologi.vue";
 // Kuis
-import KuisMatematika from "../components/Kuis/KuisMatematika.vue";
-import KuisFisika from "../components/Kuis/KuisFisika.vue";
-import KuisKimia from "../components/Kuis/KuisKimia.vue";
 import Kuis from "../components/Kuis/Kuis.vue";
 
 
@@ -104,21 +101,7 @@ const routes = [
     name: "Kuis",
     component: Kuis,
   },
-  {
-    path: "/kuis-Fisika",
-    name: "KuisFisika",
-    component: KuisFisika,
-  },
-  {
-    path: "/kuis-Matematika",
-    name: "KuisMatematika",
-    component: KuisMatematika,
-  },
-  {
-    path: "/kuis-Kimia",
-    name: "KuisKimia",
-    component: KuisKimia,
-  },
+
 ];
 
 const router = createRouter({
