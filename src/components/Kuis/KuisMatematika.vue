@@ -27,19 +27,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no1" id="a" value="a" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="a" value="a" v-model="picked" v-bind:attr="i">
         <label for="one">{{so.opsiA}}</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="b" value="b" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="b" value="b" v-model="picked" v-bind:attr="i">
         <label for="two">{{so.opsiB}}</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="c" value="c" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="c" value="c" v-model="picked" v-bind:attr="i">
         <label for="three">{{so.opsiC}}</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="d" value="d" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="d" value="d" v-model="picked" v-bind:attr="i">
         <label for="four">{{so.opsiD}}</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="e" value="e" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="e" value="e" v-model="picked" v-bind:attr="i">
         <label for="five">{{so.opsiE}}</label>
       </div>
     </div>
@@ -48,17 +48,24 @@
   <div class="container px-5 mx-auto mt-24 mb-6">
       <footer class="flex items-center justify-between">
           <div>
-          <p class="text-left">test</p>
+          <p class="text-left">Made with Love</p>
            <p>© Study.io 2021</p>
           </div>
           <div class="flex">
               <a href="https://fb.com/frozen.rotom" target="blank"><img class="w-10 ml-9" src="/assets/fb.svg" alt="facebook"></a>
               <a href=""><img class="w-10 ml-9" src="/assets/ig.svg" alt="instagram"></a>
               <a href=""><img class="w-10 ml-9" src="/assets/twitter.svg" alt="twitter"></a>
-              <a href=""><img class="w-10 ml-9" src="/assets/youtube.svg" alt=""></a>
+              <a href=""><img class="w-10 ml-9" src="/assets/youtube.svg" alt="youtube"></a>
           </div>
       </footer>
   </div>
+
+  <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban2">
+  <label for="one">test</label>
+  <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban2">
+  <label for="one">test</label>
+  <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban2">
+  <label for="one">test</label>
     
 </template>
 
@@ -74,7 +81,8 @@ export default {
             opsiD: '',
             opsiE: '',
             jawaban: '',
-            mata_pelajaran: 'matematika'
+            mata_pelajaran: 'matematika',
+            i: 0
         }
     },
     methods: {

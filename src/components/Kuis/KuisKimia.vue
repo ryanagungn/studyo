@@ -27,19 +27,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no1" id="a" value="a" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="a" value="a" v-model="so[i].answer">
         <label for="one">{{so.opsiA}}</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="b" value="b" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="b" value="b" v-model="so[i].answer">
         <label for="two">{{so.opsiB}}</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="c" value="c" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="c" value="c" v-model="so[i].answer">
         <label for="three">{{so.opsiC}}</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="d" value="d" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="d" value="d" v-model="so[i].answer">
         <label for="four">{{so.opsiD}}</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="e" value="e" v-model="jawaban">
+        <input class="mt-4 mr-2" type="radio" name="no1" id="e" value="e" v-model="so[i].answer">
         <label for="five">{{so.opsiE}}</label>
       </div>
     </div>
@@ -74,7 +74,8 @@ export default {
             opsiD: '',
             opsiE: '',
             jawaban: '',
-            mata_pelajaran:'kimia'
+            mata_pelajaran:'kimia',
+            answer:''
         }
     },
     methods: {

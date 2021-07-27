@@ -19,7 +19,7 @@ import MateriBiologi from "../components/Materi/MateriBiologi.vue";
 import KuisMatematika from "../components/Kuis/KuisMatematika.vue";
 import KuisFisika from "../components/Kuis/KuisFisika.vue";
 import KuisKimia from "../components/Kuis/KuisKimia.vue";
-import KuisBiologi from "../components/Kuis/KuisBiologi.vue";
+import Kuis from "../components/Kuis/Kuis.vue";
 
 
 
@@ -100,9 +100,9 @@ const routes = [
     component: MateriMatematika,
   },
   {
-    path: "/kuis-Biologi",
-    name: "KuisBiologi",
-    component: KuisBiologi,
+    path: "/kuis",
+    name: "Kuis",
+    component: Kuis,
   },
   {
     path: "/kuis-Fisika",

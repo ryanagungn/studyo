@@ -12,40 +12,44 @@
         </div>
       </nav>
     </div>
-    
-    <h1 class="mt-12 text-3xl font-bold">Soal Biologi</h1>
 
-    <div v-for="(so, i) in this.soal" :key="i">
-        <div class="container px-5 mx-auto mt-8 rounded-3xl">
-          <div class="container px-32 text-left">
-            <div class="flex flex-row px-10 py-4 bg-gray-200 rounded-3xl">
-              <p class="mt-4 text-2xl font-semibold">{{i+1}}</p>
-              
-              <p class="mt-4 ml-4 leading-loose">{{so.soal}}</p>
-            </div>
+        <h1 class="mt-12 text-3xl font-bold">Video Biologi</h1>
+        
+
+    <div class="container px-5 mx-auto mt-12">
+      <div class="grid grid-cols-2 gap-5">
+          <div>
+            <h1 class="text-xl font-medium text-left px-28">Materi 1 : Plantae</h1>
+            <p class="px-28">
+              <iframe class="mt-8 rounded-3xl" width="560" height="315" src="https://www.youtube.com/embed/waRKYO0cXjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
           </div>
-      </div>
-
-      <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no1" id="a" value="a" v-model="jawaban">
-        <label for="one">{{so.opsiA}}</label>
-        <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="b" value="b" v-model="jawaban">
-        <label for="two">{{so.opsiB}}</label>
-        <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="c" value="c" v-model="jawaban">
-        <label for="three">{{so.opsiC}}</label>
-        <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="d" value="d" v-model="jawaban">
-        <label for="four">{{so.opsiD}}</label>
-        <br>
-        <input class="mt-4 mr-2" type="radio" name="no1" id="e" value="e" v-model="jawaban">
-        <label for="five">{{so.opsiE}}</label>
+           <div>
+            <h1 class="text-xl font-medium text-left px-28">Materi 2 : Animalia</h1>
+            <p class="px-28">
+              <iframe class="mt-8 rounded-3xl" width="560" height="315" src="https://www.youtube.com/embed/QkyGq_zxcvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+          </div>
       </div>
     </div>
 
-    <button @click="kirim">Submit</button>
-
+    <div class="container px-5 mx-auto mt-24">
+      <div class="grid grid-cols-2">
+          <div>
+            <h1 class="text-xl font-medium text-left px-28">Materi 3 : Mutasi</h1>
+            <p class="px-28">
+              <iframe  class="mt-8 rounded-3xl" width="560" height="315" src="https://www.youtube.com/embed/OBcNgttpjsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+          </div>
+           <div>
+            <h1 class="text-xl font-medium text-left px-28">Materi 4 : Evolusi</h1>
+            <p class="px-28">
+              <iframe  class="mt-8 rounded-3xl" width="560" height="315" src="https://www.youtube.com/embed/fGWsYylYG4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+          </div>
+      </div>
+    </div>
+    
     <!-- footer -->
   <div class="container px-5 mx-auto mt-24 mb-6">
       <footer class="flex items-center justify-between">
@@ -61,54 +65,4 @@
           </div>
       </footer>
   </div>
-    
 </template>
-
-<script>
-import AuthenticationService from '../../services/Auth-Service'
-export default {
-    data () {
-        return {
-            soal : null,
-            opsiA: '',
-            opsiB: '',
-            opsiC: '',
-            opsiD: '',
-            opsiE: '',
-            jawaban: [],
-            mata_pelajaran: 'biologi'
-        }
-    },
-    methods: {
-        async getSoal(){
-            const response = await AuthenticationService.soal({
-              mata_pelajaran : this.mata_pelajaran
-            })
-            //console.log(response)
-            this.soal = response.data
-            console.log(this.soal)
-        },
-        async kirim() {
-            //nunggu respon seko server
-            const response = await AuthenticationService.kirimBiologi({
-              jawaban : this.jawaban
-            })
-            this.$router.push('/home')
-        },
-        logout(){
-            localStorage.removeItem('token')
-            this.$router.push('/login')
-        },
-        video(){
-            this.$router.push('/video')
-        },
-        account(){
-            this.$router.push('/akun')
-        }
-    },
-    beforeMount(){
-    	this.getSoal()
-    }
-
-}
-</script>

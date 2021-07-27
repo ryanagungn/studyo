@@ -64,8 +64,8 @@
             
             
             <br>
-          <button @click="changeData()" class="px-8 py-4 mt-4 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Edit</button>
-          <router-link to="/home"  class="px-8 py-5 mt-8 ml-8 text-lg text-white bg-gray-300 shadow-lg rounded-2xl hover:bg-gray-400">Batal</router-link>
+            <router-link to="/home"  class="px-8 py-5 mt-8 text-lg text-white bg-gray-300 shadow-lg rounded-2xl hover:bg-gray-400">Batal</router-link>
+          <button @click="changeData()" class="px-8 py-4 mt-4 ml-8 text-lg text-white bg-blue-800 shadow-lg rounded-2xl hover:bg-blue-900">Edit</button>
       </div>
     </div>
 </div>
