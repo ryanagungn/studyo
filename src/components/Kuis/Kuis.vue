@@ -80,19 +80,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no3" id="a" value="a" v-model="jawaban3">
         <label for="one">A. 16 dan 16</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no3" id="b" value="b" v-model="jawaban3">
         <label for="two">B. 16 dan 17</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no3" id="c" value="c" v-model="jawaban3">
         <label for="three">C. 17 dan 15</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no3" id="d" value="d" v-model="jawaban3">
         <label for="four">D. 18 dan 13</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no3" id="e" value="e" v-model="jawaban3">
         <label for="five">E. 15 dan 17</label>
       </div>
 
@@ -107,19 +107,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no4" id="a" value="a" v-model="jawaban4">
         <label for="one">A. 7,5 M</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no4" id="b" value="b" v-model="jawaban4">
         <label for="two">B. 12,5 M</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no4" id="c" value="c" v-model="jawaban4">
         <label for="three">C. 15 M</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no4" id="d" value="d" v-model="jawaban4">
         <label for="four">D. 17 M</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban3">
+        <input class="mt-4 mr-2" type="radio" name="no4" id="e" value="e" v-model="jawaban4">
         <label for="five">E. 18 M</label>
       </div>
 
@@ -134,19 +134,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban4">
+        <input class="mt-4 mr-2" type="radio" name="no5" id="a" value="a" v-model="jawaban5">
         <label for="one">A. amonium klorida</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban4">
+        <input class="mt-4 mr-2" type="radio" name="no5" id="b" value="b" v-model="jawaban5">
         <label for="two">B. barium nitrat</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban4">
+        <input class="mt-4 mr-2" type="radio" name="no5" id="c" value="c" v-model="jawaban5">
         <label for="three">C. natrium asetat</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban4">
+        <input class="mt-4 mr-2" type="radio" name="no5" id="d" value="d" v-model="jawaban5">
         <label for="four">D. kalium sulfat</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban4">
+        <input class="mt-4 mr-2" type="radio" name="no5" id="e" value="e" v-model="jawaban5">
         <label for="five">E. kalium bromida</label>
       </div>
 
@@ -161,19 +161,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban5">
+        <input class="mt-4 mr-2" type="radio" name="no6" id="a" value="a" v-model="jawaban6">
         <label for="one">A. 12A</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban5">
+        <input class="mt-4 mr-2" type="radio" name="no6" id="b" value="b" v-model="jawaban6">
         <label for="two">B. 3 A</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban5">
+        <input class="mt-4 mr-2" type="radio" name="no6" id="c" value="c" v-model="jawaban6">
         <label for="three">C. 1,5 A</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban5">
+        <input class="mt-4 mr-2" type="radio" name="no6" id="d" value="d" v-model="jawaban6">
         <label for="four">D. 24 A</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban5">
+        <input class="mt-4 mr-2" type="radio" name="no6" id="e" value="e" v-model="jawaban6">
         <label for="five">E. Tidak berubah</label>
       </div>
 
@@ -188,19 +188,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban6">
+        <input class="mt-4 mr-2" type="radio" name="no7" id="a" value="a" v-model="jawaban7">
         <label for="one">A. 90 N dan tolak menolak</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban6">
+        <input class="mt-4 mr-2" type="radio" name="no7" id="b" value="b" v-model="jawaban7">
         <label for="two">B. 90 N dan tarik menarik</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban6">
+        <input class="mt-4 mr-2" type="radio" name="no7" id="c" value="c" v-model="jawaban7">
         <label for="three">C. 2.700 N dan tolak menolak</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban6">
+        <input class="mt-4 mr-2" type="radio" name="no7" id="d" value="d" v-model="jawaban7">
         <label for="four">D. 2.700 N dan tarik menarik</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban2">
+        <input class="mt-4 mr-2" type="radio" name="no7" id="e" value="e" v-model="jawaban7">
         <label for="five">E. Tidak ada jawaban yang benar</label>
       </div>
 
@@ -215,19 +215,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban7">
+        <input class="mt-4 mr-2" type="radio" name="no8" id="a" value="a" v-model="jawaban8">
         <label for="one">A. 2</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban7">
+        <input class="mt-4 mr-2" type="radio" name="no8" id="b" value="b" v-model="jawaban8">
         <label for="two">B. 4</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban7">
+        <input class="mt-4 mr-2" type="radio" name="no8" id="c" value="c" v-model="jawaban8">
         <label for="three">C. 6</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban7">
+        <input class="mt-4 mr-2" type="radio" name="no8" id="d" value="d" v-model="jawaban8">
         <label for="four">D. 8</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban7">
+        <input class="mt-4 mr-2" type="radio" name="no8" id="e" value="e" v-model="jawaban8">
         <label for="five">E. 10</label>
       </div>
 
@@ -242,19 +242,19 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban8">
+        <input class="mt-4 mr-2" type="radio" name="no9" id="a" value="a" v-model="jawaban9">
         <label for="one">A. 3</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban8">
+        <input class="mt-4 mr-2" type="radio" name="no9" id="b" value="b" v-model="jawaban9">
         <label for="two">B. 6</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban8">
+        <input class="mt-4 mr-2" type="radio" name="no9" id="c" value="c" v-model="jawaban9">
         <label for="three">C. 8</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban8">
+        <input class="mt-4 mr-2" type="radio" name="no9" id="d" value="d" v-model="jawaban9">
         <label for="four">D. 16</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban8">
+        <input class="mt-4 mr-2" type="radio" name="no9" id="e" value="e" v-model="jawaban9">
         <label for="five">E. 32</label>
       </div>
 
@@ -269,30 +269,30 @@
       </div>
 
       <div class="mx-auto mt-4 text-left px-60 sm:px-72">
-        <input class="mt-4 mr-2" type="radio" name="no2" id="a" value="a" v-model="jawaban9">
+        <input class="mt-4 mr-2" type="radio" name="no10" id="a" value="a" v-model="jawaban10">
         <label for="one">A. 0</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="b" value="b" v-model="jawaban9">
+        <input class="mt-4 mr-2" type="radio" name="no10" id="b" value="b" v-model="jawaban10">
         <label for="two">B. 0,25</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="c" value="c" v-model="jawaban9">
+        <input class="mt-4 mr-2" type="radio" name="no10" id="c" value="c" v-model="jawaban10">
         <label for="three">C. 0,5</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="d" value="d" v-model="jawaban9">
+        <input class="mt-4 mr-2" type="radio" name="no10" id="d" value="d" v-model="jawaban10">
         <label for="four">D. 0,75</label>
         <br>
-        <input class="mt-4 mr-2" type="radio" name="no2" id="e" value="e" v-model="jawaban9">
+        <input class="mt-4 mr-2" type="radio" name="no10" id="e" value="e" v-model="jawaban10">
         <label for="five">E. 1,0</label>
       </div>
 
-    <button @click="kirim" class="px-8 py-3 mt-12 text-lg text-white bg-blue-800 rounded-2xl hover:bg-blue-900">Submit</button>
+    <button @click="koreksi" class="px-8 py-3 mt-12 text-lg text-white bg-blue-800 rounded-2xl hover:bg-blue-900">Submit</button>
 
     <div class="container py-6 mx-auto mt-12 bg-blue-800 rounded-2xl">
           <div class="container grid items-center grid-cols-2 px-32">
               <div class="text-left text-white ">
                 Nilai anda :
               </div>
-              <div class="text-2xl font-bold text-right text-white ">80</div>
+              <div class="text-2xl font-bold text-right text-white ">{{nilai}}</div>
           </div>
     </div>
 
@@ -325,25 +325,38 @@ export default {
             opsiC: '',
             opsiD: '',
             opsiE: '',
-            jawaban: [],
+            jawaban: '',
+            jawaban2: '',
+            jawaban3: '',
+            jawaban4: '',
+            jawaban5: '',
+            jawaban6: '',
+            jawaban7: '',
+            jawaban8: '',
+            jawaban9: '',
+            jawaban10: '',
+            nilai: '',
             mata_pelajaran: 'biologi'
         }
     },
     methods: {
-        async getSoal(){
-            const response = await AuthenticationService.soal({
-              mata_pelajaran : this.mata_pelajaran
+        async koreksi() {
+            let answer = []
+            answer[0] = this.jawaban
+            answer[1] = this.jawaban2
+            answer[2] = this.jawaban3
+            answer[3] = this.jawaban4
+            answer[4] = this.jawaban5
+            answer[5] = this.jawaban6
+            answer[6] = this.jawaban7
+            answer[7] = this.jawaban8
+            answer[8] = this.jawaban9
+            answer[9] = this.jawaban10
+            const response = await AuthenticationService.koreksi({
+              jawaban : answer
             })
-            //console.log(response)
-            this.soal = response.data
-            console.log(this.soal)
-        },
-        async kirim() {
-            //nunggu respon seko server
-            const response = await AuthenticationService.kirimBiologi({
-              jawaban : this.jawaban
-            })
-            this.$router.push('/home')
+            this.nilai = response.data
+            
         },
         logout(){
             localStorage.removeItem('token')
@@ -355,10 +368,6 @@ export default {
         account(){
             this.$router.push('/akun')
         }
-    },
-    beforeMount(){
-    	this.getSoal()
     }
-
 }
 </script>

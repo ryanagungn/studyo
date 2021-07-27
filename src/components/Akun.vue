@@ -20,13 +20,13 @@
     <div class="container px-56 mx-auto rounded-2xl">
         <div class="grid grid-cols-3 gap-10 p-10 py-20 my-6 bg-gray-200 rounded-2xl">
             <div class="ml-20 text-left">Nama :</div>
-            <div class="col-span-2 px-8 py-3 mr-20 text-left bg-white rounded-2xl">2</div>
+            <div class="col-span-2 px-8 py-3 mr-20 text-left bg-white rounded-2xl">{{identitas.namaDepan}}</div>
             <div class="ml-20 text-left">Username :</div>
-            <div class="col-span-2 px-8 py-3 mr-20 text-left bg-white rounded-2xl">4</div>
+            <div class="col-span-2 px-8 py-3 mr-20 text-left bg-white rounded-2xl">{{identitas.username}}</div>
             <div class="ml-20 text-left">Alamat email :</div>
-            <div class="col-span-2 px-8 py-3 mr-20 text-left bg-white rounded-2xl">6</div>
+            <div class="col-span-2 px-8 py-3 mr-20 text-left bg-white rounded-2xl">{{identitas.email}}</div>
             <div class="ml-20 text-left">Nomor telepon :</div>
-            <div class="col-span-2 px-8 py-3 mr-20 text-left bg-white rounded-2xl">8</div>
+            <div class="col-span-2 px-8 py-3 mr-20 text-left bg-white rounded-2xl">{{identitas.nomorTelepon}}</div>
         </div>
     </div>
 
@@ -82,8 +82,14 @@ export default {
                 email: '',
                 nomorTelepon: '',
                 username: '',
-                password: ''
+                kataSandi: ''
             },
+            identitas: {
+                namaDepan: '',
+                email: '',
+                nomorTelepon: '',
+                username: '',
+            }
         }
     },
     methods: {
@@ -94,15 +100,24 @@ export default {
                 email : this.email,
                 nomorTelepon : this.nomorTelepon,
                 username : this.username,
-                kataSandi : this.password
+                kataSandi : this.kataSandi
             }
             console.log(this.updateAccount)
             const response = await AuthenticationService.changeData(this.updateAccount)
             this.$router.push('/home')
         },
-        // mounted(){
-        // this.changeData()
-        // }
-    }
+        async getIdentitas(){
+          const response = await AuthenticationService.getIdentitas()
+          console.log(response.data)
+          this.identitas.namaDepan = response.data[0].namaDepan
+          this.identitas.email = response.data[0].email
+          this.identitas.nomorTelepon = response.data[0].nomorTelepon
+          this.identitas.username = response.data[0].username
+          console.log(this.identitas.namaDepan)
+        }
+    },
+        beforeMount(){
+    	    this.getIdentitas()
+        }
 }
 </script>

@@ -8,7 +8,7 @@
         <div>
           <router-link to="/login" class="text-lg text-gray-900 ml-9 hover:text-blue-800"> Kelas</router-link>
           <router-link to="/akun" class="text-lg text-gray-900 ml-9 hover:text-blue-800"> Akun</router-link>
-          <router-link to="/login" class="py-3 text-lg text-white bg-blue-800 px-7 ml-9 rounded-2xl w-9 hover:bg-blue-900">Logout</router-link>
+          <button @click=logout() class="py-3 text-lg text-white bg-blue-800 px-7 ml-9 rounded-2xl w-9 hover:bg-blue-900">Logout</button>
         </div>
       </nav>
     </div>
@@ -72,3 +72,14 @@
       </footer>
   </div>
 </template>
+
+<script>
+export default {
+    methods: {
+        logout(){
+            localStorage.removeItem('token')
+            this.$router.push('/login')
+        }
+    }
+}
+</script>
